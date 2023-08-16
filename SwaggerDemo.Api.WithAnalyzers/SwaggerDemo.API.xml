@@ -4,6 +4,28 @@
         <name>SwaggerDemo.Api</name>
     </assembly>
     <members>
+        <member name="M:SwaggerDemo.Api.Controllers.BooksController.AddBook(System.Guid,SwaggerDemo.Api.Entities.Book)">
+            <summary>
+            Adds a new book to the collection of books for a specific author.
+            </summary>
+            <remarks>
+            Creates and adds a new book to the collection of books associated with the provided Author ID.
+            The provided Author ID is used to associate the book with the correct author.
+            <br/><br/>
+            <b>Request Body:</b><br/>
+            The request body should contain a JSON object with the following properties:
+            <code>
+            {
+              "Title": "The Title of the Book",
+              "Description": "The Description of the Book",
+              "AmountOfPages": 200
+              // ... other properties as needed
+            }
+            </code>
+            </remarks>
+            <param name="authorId">The ID of the author for whom the book is being added.</param>
+            <param name="bookToAdd">The details of the new book to be added.</param>
+        </member>
         <member name="M:SwaggerDemo.Api.Controllers.BooksController.GetBooks(System.Guid)">
             <summary>
             Get an book by Author Id

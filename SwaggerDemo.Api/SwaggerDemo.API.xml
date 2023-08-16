@@ -4,12 +4,5 @@
         <name>SwaggerDemo.Api</name>
     </assembly>
     <members>
-        <member name="M:SwaggerDemo.Api.Controllers.BooksController.GetBooks(System.Guid)">
-            <summary>
-            Get an book by Author Id
-            </summary>
-            <param name="authorId"> The id of the author you want to get</param>
-            <returns></returns>
-        </member>
     </members>
 </doc>

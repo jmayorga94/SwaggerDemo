@@ -5,6 +5,7 @@ using SwaggerDemo.Api.Books.Mappers;
 using SwaggerDemo.Api.Entities;
 using SwaggerDemo.Api.Services;
 using Microsoft.AspNetCore.Http;
+using SwaggerDemo.Api.Books.DTOs.Requests;
 
 namespace SwaggerDemo.Api.Controllers;
 
@@ -20,6 +21,25 @@ public class BooksController : ControllerBase
         _bookService = bookService ?? throw new ArgumentNullException(nameof(bookService));
     }
 
+    /// <summary>
+    /// Adds a new book to the collection of books for a specific author.
+    /// </summary>
+    /// <remarks>
+    /// Creates and adds a new book to the collection of books associated with the provided Author ID.
+    /// The provided Author ID is used to associate the book with the correct author.
+    /// <br/><br/>
+    /// <b>Request Body:</b><br/>
+    /// The request body should contain a JSON object with the following properties:
+    /// <code>
+    /// {
+    ///   "Title": "The Title of the Book",
+    ///   "Description": "The Description of the Book",
+    ///   "AmountOfPages": 200
+    /// }
+    /// </code>
+    /// </remarks>
+    /// <param name="authorId">The ID of the author for whom the book is being added.</param>
+    /// <param name="bookToAdd">The details of the new book to be added.</param>
     [HttpPost]
     [Consumes("application/json")]
 
@@ -67,5 +87,5 @@ public class BooksController : ControllerBase
         return Ok(response);
     }
 
-  
+
 }

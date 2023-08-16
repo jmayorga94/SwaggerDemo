@@ -8,26 +8,28 @@ builder.Services.AddApi();
 
 builder.Services.AddEndpointsApiExplorer();
 
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddSwaggerGen(setup =>
 {
     setup.SwaggerDoc("BooksAndAuthorsSpecification", new()
     {
-        Title = "Books and Authors API",
-        Version = "1",
-        Description="Through this API you can access authors and books",
-        Contact = new()
-        {
-         Email="javiermay",
-         Name =" Javier Mayorga",
-         Url = new Uri("https://www.twitter/javiermay")
-        }
-        
+        //Title = "Books and Authors API",
+        //Version = "1",
+        //Description = "Through this API you can access authors and books",
+        //Contact = new()
+        //{
+        //    Email = "escribe tu email",
+        //    Name = "escribe tu nombre",
+        //    Url = new Uri("https://www.twitter/user")
+        //}
+
 
     });
-    var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
+    //var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    //var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
 
-    setup.IncludeXmlComments(xmlCommentsFullPath);
+    //setup.IncludeXmlComments(xmlCommentsFullPath);
 });
 
 

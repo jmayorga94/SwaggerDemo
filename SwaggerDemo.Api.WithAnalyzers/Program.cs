@@ -17,11 +17,11 @@ builder.Services.AddSwaggerGen(setup =>
         Description="Through this API you can access authors and books",
         Contact = new()
         {
-         Email="javiermay",
-         Name =" Javier Mayorga",
-         Url = new Uri("https://www.twitter/javiermay")
+            Email = "escribe tu email",
+            Name = "escribe tu nombre",
+            Url = new Uri("https://www.twitter/user")
         }
-        
+
 
     });
     var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";

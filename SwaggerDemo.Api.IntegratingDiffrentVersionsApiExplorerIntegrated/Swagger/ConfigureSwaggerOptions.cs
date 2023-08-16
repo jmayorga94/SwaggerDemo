@@ -30,7 +30,14 @@ namespace SwaggerDemo.Api.Swagger
                      description.GroupName,
                     CreateVersionInfo(description));
             }
+            options.DocInclusionPredicate((docName, apiDesc) =>
+            {
 
+                var apiVersion = apiDesc.GetApiVersion();
+                var requestedVersion = docName.ToLower().Replace("v", "");
+
+                return requestedVersion == "1" || apiVersion.ToString() == requestedVersion;
+            });
             var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
             var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
 

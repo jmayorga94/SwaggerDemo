@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.ApiWithMultipleVersions",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerDemo.Api", "SwaggerDemo.Api.IntegratingDiffrentVersionsApiExplorer\SwaggerDemo.Api.csproj", "{DF88D77E-4C7D-43D6-BD51-52103770FF0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.ApiWithMultipleVersionIntegrated", "6.ApiWithMultipleVersionIntegrated", "{68DD0F8A-4EBD-49D4-BEA2-2D4B94B13FCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerDemo.Api", "SwaggerDemo.Api.IntegratingDiffrentVersionsApiExplorerIntegrated\SwaggerDemo.Api.csproj", "{A25BDA73-846D-4A06-AAEC-EF4FBFF370C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{DF88D77E-4C7D-43D6-BD51-52103770FF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF88D77E-4C7D-43D6-BD51-52103770FF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF88D77E-4C7D-43D6-BD51-52103770FF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25BDA73-846D-4A06-AAEC-EF4FBFF370C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25BDA73-846D-4A06-AAEC-EF4FBFF370C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25BDA73-846D-4A06-AAEC-EF4FBFF370C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25BDA73-846D-4A06-AAEC-EF4FBFF370C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{32FC1A02-8E1A-4705-BFA8-641EA5BE25C2} = {D2B7AE35-DF23-43D8-931C-CDCD6987B9C7}
 		{0B5A11AD-8EFA-41B7-8C17-DFF6AB824E6F} = {601F545C-23A2-476C-8DA5-957A6705E194}
 		{DF88D77E-4C7D-43D6-BD51-52103770FF0C} = {B12F5F10-2641-4263-BA89-459E6DB63842}
+		{A25BDA73-846D-4A06-AAEC-EF4FBFF370C9} = {68DD0F8A-4EBD-49D4-BEA2-2D4B94B13FCB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D400410A-CA90-4018-913C-A30B7BE97489}
