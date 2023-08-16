@@ -1,0 +1,94 @@
+{
+  "Authors": [
+    {
+      "Id": "978e0ea7-4b51-4e0c-ae97-0dd33796f0c3",
+      "FirstName": "Sarah",
+      "LastName": "Anderson"
+    },
+    {
+      "Id": "c07a5cf2-1fe4-4e2d-8bf5-9e5e265413ca",
+      "FirstName": "Michael",
+      "LastName": "Williams"
+    },
+    {
+      "Id": "2d89c8bb-9e42-4e66-88fb-875e973f5f84",
+      "FirstName": "Emily",
+      "LastName": "Roberts"
+    },
+    {
+      "Id": "7ac3bf67-2d52-49b0-9c69-7c572efaf9da",
+      "FirstName": "Daniel",
+      "LastName": "Smith"
+    },
+    {
+      "Id": "c17b07f0-2449-4e37-932d-9325e4e7aa2a",
+      "FirstName": "Jessica",
+      "LastName": "Johnson"
+    }
+  ],
+  "Books": [
+    {
+      "Id": "45e46d6b-dc84-4f37-9d5a-df5360eaaf18",
+      "Title": "Beyond the Stars",
+      "Description": "A science fiction adventure of exploration.",
+      "AmountOfPages": 280,
+      "AuthorId": "978e0ea7-4b51-4e0c-ae97-0dd33796f0c3"
+    },
+    {
+      "Id": "a84e3277-1411-4305-aa9b-dcdf06b8f8a4",
+      "Title": "Whispers in the Woods",
+      "Description": "A gripping mystery set in a small town.",
+      "AmountOfPages": 320,
+      "AuthorId": "978e0ea7-4b51-4e0c-ae97-0dd33796f0c3"
+    },
+    {
+      "Id": "6541b7aa-05cc-4c02-8d86-58e0c3c8a885",
+      "Title": "Chronicles of Eldoria",
+      "Description": "An epic fantasy saga of heroes and villains.",
+      "AmountOfPages": 450,
+      "AuthorId": "c07a5cf2-1fe4-4e2d-8bf5-9e5e265413ca"
+    },
+    {
+      "Id": "320918b6-1343-4e6c-8e2b-d274f7d0a6d5",
+      "Title": "Secrets in the Shadows",
+      "Description": "A suspenseful thriller with unexpected twists.",
+      "AmountOfPages": 380,
+      "AuthorId": "2d89c8bb-9e42-4e66-88fb-875e973f5f84"
+    },
+    {
+      "Id": "871c5825-39e5-4ad0-a7a5-b31819639801",
+      "Title": "The Enchanted Garden",
+      "Description": "A heartwarming tale of friendship and magic.",
+      "AmountOfPages": 240,
+      "AuthorId": "2d89c8bb-9e42-4e66-88fb-875e973f5f84"
+    },
+    {
+      "Id": "e29a8a4a-8cc7-43bb-ba19-7d42d4ed2cb7",
+      "Title": "Silent Echoes",
+      "Description": "A touching story of love and loss.",
+      "AmountOfPages": 300,
+      "AuthorId": "7ac3bf67-2d52-49b0-9c69-7c572efaf9da"
+    },
+    {
+      "Id": "cdbe665b-1d9e-4eef-81a9-b4c1d7a71196",
+      "Title": "The Midnight Conspiracy",
+      "Description": "A thrilling conspiracy mystery that unfolds at night.",
+      "AmountOfPages": 410,
+      "AuthorId": "7ac3bf67-2d52-49b0-9c69-7c572efaf9da"
+    },
+    {
+      "Id": "77c92a88-8ef3-4d5e-9d9d-3d9c77722992",
+      "Title": "Sands of Destiny",
+      "Description": "An adventurous journey through ancient lands.",
+      "AmountOfPages": 360,
+      "AuthorId": "c17b07f0-2449-4e37-932d-9325e4e7aa2a"
+    },
+    {
+      "Id": "984ac6d6-68ab-42d6-a15f-79c5a95cda4e",
+      "Title": "Echoes of the Past",
+      "Description": "A historical novel set in a time of change.",
+      "AmountOfPages": 290,
+      "AuthorId": "c17b07f0-2449-4e37-932d-9325e4e7aa2a"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerDemo.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerDemo.Api.Controllers.AuthorsController.GetAuthor(System.Guid)">
+            <summary>
+            Get an author by his/her id
+            </summary>
+            <param name="authorId">The id of the author you want to get</param>
+            <returns>An ActionResult of type Author</returns>
+        </member>
+        <member name="M:SwaggerDemo.Api.Controllers.BooksController.GetBooks(System.Guid)">
+            <summary>
+            Get an book by Author Id
+            </summary>
+            <param name="authorId"> The id of the author you want to get</param>
+            <returns></returns>
+            <response code="200"> Returns the requested book</response>
+        </member>
+    </members>
+</doc>
